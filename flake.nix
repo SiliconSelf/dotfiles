@@ -10,6 +10,7 @@
       ./users/wren
       ./common/time.nix
       ./common/i18n.nix
+      ./common/utilities.nix
       ./services/openssh.nix
     ];
   in
