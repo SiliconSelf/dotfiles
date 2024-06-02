@@ -3,6 +3,15 @@
     flake-utils.url = "github:numtide/flake-utils?ref=main";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     fenix.url = "github:nix-community/fenix?ref=main";
+    lix = {
+      url = "git+https://git.lix.systems/lix-project/lix?ref=refs/tags/2.90-beta.1";
+      flake = false;
+    };
+    lix-module = {
+      url = "git+https://git.lix.systems/lix-project/nixos-module";
+      inputs.lix.follows = "lix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
   outputs = inputs:
   let
@@ -12,6 +21,7 @@
       ./common/i18n.nix
       ./common/utilities.nix
       ./services/openssh.nix
+      inputs.lix-module.nixosModules.default
     ];
   in
   {
