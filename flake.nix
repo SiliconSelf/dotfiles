@@ -21,6 +21,7 @@
       ./common/i18n.nix
       ./common/utilities.nix
       ./services/openssh.nix
+      ./tweaks/allow_experimental.nix
       inputs.lix-module.nixosModules.default
     ];
   in
