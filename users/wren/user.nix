@@ -16,6 +16,7 @@
       firefox
       helix
       neofetch
+      vscodium
     ];
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEoDw5PVRJDvWTqUU8/vbuz9hpx9NGRni4ayXNeWYSy1"
