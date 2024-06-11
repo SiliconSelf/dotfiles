@@ -18,6 +18,12 @@ in
     # JetBrains IDE
     jetbrains.rust-rover
     # Toolchain
-    inputs.fenix.packages.${pkgs.system}.stable
+    (inputs.fenix.packages.${pkgs.system}.stable.withComponents [
+      "cargo"
+      "clippy"
+      "rust-src"
+      "rustc"
+      "rustfmt"
+    ])
   ]);
 }
