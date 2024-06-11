@@ -16,7 +16,7 @@ in
     gdb
     lldb
     # Linker
-    mold
+    clang
     # JetBrains IDE
     jetbrains.rust-rover
     # Toolchain
