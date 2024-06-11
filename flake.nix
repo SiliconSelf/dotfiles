@@ -22,6 +22,7 @@
       ./common/utilities.nix
       ./services/openssh.nix
       ./tweaks/allow_experimental.nix
+      ./tweaks/allow_unfree.nix
       inputs.lix-module.nixosModules.default
     ];
   in
