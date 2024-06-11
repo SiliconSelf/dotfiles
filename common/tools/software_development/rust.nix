@@ -18,7 +18,7 @@ in
     # JetBrains IDE
     jetbrains.rust-rover
     # Toolchain
-    (fenix.complete.withComponents [
+    (inputs.fenix.complete.withComponents [
       "cargo"
       "clippy"
       "rust-src"
