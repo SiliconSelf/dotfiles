@@ -20,7 +20,7 @@ in
     # JetBrains IDE
     jetbrains.rust-rover
     # Toolchain
-    (inputs.fenix.packages.${pkgs.system}.stable.withComponents [
+    (inputs.fenix.packages.${pkgs.system}.default.withComponents [
       "cargo"
       "clippy"
       "rust-src"
