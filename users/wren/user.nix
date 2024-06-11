@@ -11,6 +11,7 @@
       "plugdev"
       "video"
       "wheel"
+      "jetbrains.rust-rover"
     ];
     packages = with pkgs; [
       firefox
