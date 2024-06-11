@@ -15,6 +15,8 @@ in
     # Debuggers
     gdb
     lldb
+    # Linker
+    mold
     # JetBrains IDE
     jetbrains.rust-rover
     # Toolchain
