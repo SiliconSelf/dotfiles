@@ -17,5 +17,13 @@ in
     lldb
     # JetBrains IDE
     jetbrains.rust-rover
+    # Toolchain
+    (fenix.complete.withComponents [
+      cargo
+      clippy
+      rust-src
+      rustc
+      rustfmt
+    ])
   ]);
 }
