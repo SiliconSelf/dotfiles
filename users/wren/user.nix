@@ -11,15 +11,14 @@
       "plugdev"
       "video"
       "wheel"
-      "jetbrains.rust-rover"
     ];
     packages = with pkgs; [
       firefox
-      neofetch
       vscodium
       gimp
       element-desktop
       thunderbird
+      hyfetch
     ];
     openssh.authorizedKeys.keys = [
       "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEoDw5PVRJDvWTqUU8/vbuz9hpx9NGRni4ayXNeWYSy1"

@@ -15,5 +15,7 @@ in
     # Debuggers
     gdb
     lldb
+    # JetBrains IDE
+    jetbrains.rust-rover
   ]);
 }
