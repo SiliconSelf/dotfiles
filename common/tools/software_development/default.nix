@@ -7,6 +7,7 @@
   environment.systemPackages = with pkgs; [
     direnv
     vscodium
+    bruno
   ];
   programs.git = {
     enable = true;
